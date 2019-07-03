@@ -1,8 +1,8 @@
 from Crypto.Hash import SHA3_256
 from binascii import hexlify
 
-from utils import countries
-from merkletree import MerkleTree
+from .utils import countries
+from .merkletree import MerkleTree
 
 def sha3(data):
     return SHA3_256.new(data).digest()

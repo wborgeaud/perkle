@@ -1,3 +1,7 @@
 venv/
 __pycache__/
 .vscode/
+perkle_wborgeaud.egg-info/
+perkle.egg-info/
+build/
+dist/

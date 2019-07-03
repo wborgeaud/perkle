@@ -2,7 +2,7 @@ import unittest
 from Crypto.Hash import SHA256, SHA3_256
 from Crypto.Random import get_random_bytes
 
-from merkletree import MerkleTree
+from .merkletree import MerkleTree
 
 def sha256(data):
     return SHA256.new(data).digest()
