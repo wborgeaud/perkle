@@ -1,5 +1,4 @@
 from Crypto.Random import get_random_bytes
-from Crypto.Hash import SHA256
 from math import log2, ceil
 
 from .utils import is_power2
